@@ -8,3 +8,5 @@ Pillow
 opencv-python-headless
 ffmpeg-python
 python-dotenv
+mutagen
+numpy
