@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+pydantic
+python-magic-bin
+Pillow
+opencv-python-headless
+ffmpeg-python
+python-dotenv

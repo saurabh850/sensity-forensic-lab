@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+
+# Sensity Specific
+backend/forensic_lab.db
+backend/evidence_vault/
+
+# Node
+node_modules/
+dist/
+.DS_Store
