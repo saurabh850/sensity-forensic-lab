@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { ArrowLeft, FileBox, Upload, FileText, Image as ImageIcon, Video, Music, Activity, ShieldAlert } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export default function CaseDetail() {
   const { id } = useParams();

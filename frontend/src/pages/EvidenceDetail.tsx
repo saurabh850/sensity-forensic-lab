@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { ArrowLeft, Hash, Shield, FileSearch, Eye, FileJson, History, Activity, AlertTriangle, AlertCircle, PlayCircle, BarChart3, Image as ImageIcon, Video, Music } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export default function EvidenceDetail() {
   const { id } = useParams();
